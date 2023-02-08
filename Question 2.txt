@@ -1,0 +1,23 @@
+Question : Explain very briefly any 5 basic git commands.
+
+Answer:  5 basic Git commands
+
+# git clone 
+
+It Creates a copy of an existing Git repository. Cloning is the most common way for us to obtain a  copy of a main repository. We can copy the whole repositories into our device by using this simple command. 
+
+# git fetch 
+
+Fetching downloads a branch from another repository, along with all of its associated commits and files. But, it doesn't try to integrate anything into out local repository. This gives us a chance to inspect changes before merging them with our project.
+
+# git clean
+
+Removes untracked files from the working directory. This is the logical counterpart to git reset, which only operates on tracked files.
+
+# git init
+
+This is the command we need to use if we want to start a new empty repository or to reinitialize an existing one in the project root. It will create a .git directory with its subdirectories
+
+# git commit
+
+After changes are done locally, we can save them by “committing” them. A commit is like local a snapshot of the current state of the branch, to which we can always come back.

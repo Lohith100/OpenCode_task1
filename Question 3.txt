@@ -1,0 +1,29 @@
+Question : How to make a Pull Request?
+
+Answer: 
+Steps: using GUI GitHub
+# select a project we want to contribute to
+# Fork it
+# Clone it to your local system
+# Make a new branch
+# Make your changes
+#Push it back to our repo
+#Click the Compare & pull request button
+# Click Create pull request to open a new pull request
+
+With command line :
+
+To create a pull request, use the " gh pr " create subcommand.
+
+"gh pr create"
+
+In desktop ( GitHub website) :
+# 1st we need to Switch to the branch that we want to create a pull request for. 
+
+# Click Create Pull Request. GitHub desktop will   take you to GitHub.
+# Click The Create Pull Request button
+On GitHub, confirm that the branch in the base: drop-down menu is the branch where you want to merge your changes. Confirm that the branch in the compare: drop-down menu is the topic branch where you made your changes.
+Drop-down menus for choosing the base and compare branches
+# Type a title and description for your pull request.
+# Pull request title and description fields
+To create a pull request that is ready for review, click Create Pull Request. To create a draft pull request, use the drop-down and select Create Draft Pull Request, then click Draft Pull Request
